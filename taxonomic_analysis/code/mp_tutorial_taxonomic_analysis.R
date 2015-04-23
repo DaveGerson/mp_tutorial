@@ -6,9 +6,7 @@
 
 ## 1. Loading Megan Table into R
 # set the working directory to where you have the HOT_mean_table.txt
-# Download: https://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/files/HOT_megan_table.txt
-setwd("~/mp_tutorial/taxonomic_analysis/files/")
-HOT_data <- read.table("HOT_megan_table.txt", header=TRUE, sep="\t", row.names=1)
+HOT_data <- read.table("https://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/files/HOT_megan_table.txt", header=TRUE, sep="\t", row.names=1)
 
 ## 2. Data Scaling
 # alway important to plot your data to get a sense of its distribution
